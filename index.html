@@ -33,7 +33,14 @@
                     <li>Memeing</li>
                 </ul>
             </section>
-            
+             <dialog id="mydialog">
+                This is a dialog
+                <a href="javascript:mydialog.removeAttribute('open')">close</a>
+            </dialog>
+
+            <a href="javascript:document.querySelector('#mydialog').setAttribute('open', true)">
+                Open Dialog
+            </a>
         </article>
            
            
